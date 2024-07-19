@@ -5,3 +5,11 @@
 .resizable-box {
   position: relative;
 }
+
+.react-resizable-handle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  cursor: se-resize;
+  z-index: 10;
+}
